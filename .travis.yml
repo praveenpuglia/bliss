@@ -12,6 +12,8 @@ before_install:
 before_script:
   - npm install -g gulp
   - gulp
+  - sudo: required
+  - sudo apt-get install google-chrome-stable
 
 script: npm test
 
