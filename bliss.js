@@ -260,7 +260,7 @@ extend($, {
 		o.method = o.method || 'GET';
 		o.headers = o.headers || {};
 
-		var xhr = new XMLHttpRequest();
+		var xhr = new XMLHttpRequest(); 
 
 		if ($.type(o.data) !== "string") {
 			o.data = Object.keys(o.data).map(function(key){ return key + "=" + encodeURIComponent(o.data[key]); }).join("&");
