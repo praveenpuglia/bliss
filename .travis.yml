@@ -18,4 +18,4 @@ script: npm test
 # whitelist
 branches:
   only:
-    - gh-pages
+    - th-test
